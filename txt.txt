@@ -1,0 +1,59 @@
+// INGRESAR DATOS A CLIENTES
+// http://localhost:3000/clients
+{
+  "documentoCliente": "123456789",
+  "nombreCompleto": "Juan Pérez",
+  "celular": "3001234567",
+  "fechaNacimiento": "1980-01-01"
+}
+
+// CREAR USUARIO
+// http://localhost:3000/users/register
+
+{
+  "nombreUsuario": "juanperez",
+  "password": "123",
+  "estado": "activo"
+}
+
+
+// INICIAR SESION
+// http://localhost:3000/users/login
+
+{
+  "nombreUsuario": "juanperez",
+  "password": "123"
+}
+
+// CREAR CUENTA
+// http://localhost:3000/accounts
+
+{
+  "documentoCliente": "123456789",
+  "fechaApertura": "2024-09-17",
+  "saldo": 1000,
+  "claveAcceso": "1234"
+}
+
+// CONSIGNAR DINERO A UNA CUENTA
+// http://localhost:3000/accounts/consign
+
+{
+  "numeroCuenta": 1,
+  "valor": 500
+}
+
+//RETIRAR DINERO 
+// http://localhost:3000/accounts/withdraw
+
+{
+  "numeroCuenta": 1,
+  "valor": 200
+}
+
+// ELIMINAR CUENTA
+// http://localhost:3000/accounts/1
+
+
+
+
