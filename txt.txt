@@ -25,7 +25,7 @@
   "password": "123"
 }
 
-// CREAR CUENTA
+// CREAR CUENTA BANCO
 // http://localhost:3000/accounts
 
 {
